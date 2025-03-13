@@ -28,7 +28,8 @@ requirements:
     - hydra-core
     - ipython
     - jinja2
-    - numpy <2
+    - narwhals
+    - numpy <3
     - orjson
     - pandas
     - pyarrow

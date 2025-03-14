@@ -1,6 +1,6 @@
 {% set python_min = "3.9" %}
 {% set name = "ccflow" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 68bd050901af2eddefd461b8c00010603be802c2eaa8cb588118d3ff51e6d8ae
+  sha256: 4d2b979661c30b934d38279e5837c2698eae3063d7344881c206e480169f89f0
 
 build:
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation

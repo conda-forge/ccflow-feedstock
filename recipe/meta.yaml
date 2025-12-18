@@ -25,6 +25,7 @@ requirements:
     - cloudpathlib
     - cloudpickle
     - dask
+    - deprecated
     - hydra-core
     - ipython
     - jinja2

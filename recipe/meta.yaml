@@ -1,5 +1,5 @@
 {% set name = "ccflow" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/94/fa/60dd9459942d3d0c5cffe40abbaba8f608c4e98319aaa1c1a91cf263461c/ccflow-{{ version }}.tar.gz
-  sha256: 3cba4611c0d963a5860d7a8cb75ba8fc7baa1dcf31a462fdcc11227d52222cfc
+  url: https://files.pythonhosted.org/packages/36/73/97d0b04398d2cb1399228e9f7182802a1f2234f2c340b8f73de5aadb17c4/ccflow-{{ version }}.tar.gz
+  sha256: 12c16846325f472945b9cc57fbf42c5a6d1ecb349b624a216d28c32374fdf76a
 
 build:
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
@@ -25,6 +25,7 @@ requirements:
     - cloudpathlib
     - cloudpickle
     - dask
+    - deprecated
     - hydra-core
     - ipython
     - jinja2

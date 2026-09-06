@@ -1,5 +1,5 @@
 {% set name = "ccflow" %}
-{% set version = "0.9.1" %}
+{% set version = "0.9.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/fc/f9/6d6cdeb2e1e3f1df5c2f27ac4576e744c2dc84806d1eff8dc51cfcdec6a1/ccflow-{{ version }}.tar.gz
-  sha256: 455b6f6659f4231c6eb145ec5ba74cff3d1e59046ab926eb713983ee1c1ca876
+  url: https://files.pythonhosted.org/packages/01/34/098cc28f469e5728b7d7e37615caadc81a8ef1d0a9a3ce8d54509743dd53/ccflow-{{ version }}.tar.gz
+  sha256: db248580e96efb8217347ddee4610ddf90993a68f9a1d8e8b9d66409a8c5f8d4
 
 build:
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation

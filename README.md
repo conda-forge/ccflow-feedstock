@@ -11,7 +11,6 @@ Summary: ccflow is a collection of tools for workflow configuration, orchestrati
 
 ccflow is a collection of tools for workflow configuration, orchestration, and dependency injection
 
-
 Current build status
 ====================
 
@@ -193,7 +192,4 @@ Feedstock Maintainers
 
 * [@ptomecek](https://github.com/ptomecek/)
 * [@timkpaine](https://github.com/timkpaine/)
-
-
-<!-- dummy commit to enable rerendering -->
 

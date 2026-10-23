@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: ccflow
-  version: "0.9.2"
+  version: "0.9.3"
   python_min: "3.10"
 
 package:
@@ -10,11 +10,11 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/01/34/098cc28f469e5728b7d7e37615caadc81a8ef1d0a9a3ce8d54509743dd53/ccflow-${{ version }}.tar.gz
-  sha256: db248580e96efb8217347ddee4610ddf90993a68f9a1d8e8b9d66409a8c5f8d4
+  url: https://files.pythonhosted.org/packages/af/71/544a6ac2893e511a6b5b4be7d1129c59160f5b0b16ee802e2d93863adcc0/ccflow-${{ version }}.tar.gz
+  sha256: 62a2116ddb67f272ed11d344f97994d6cd644ecd737bfed1049909cfc85320ea
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
